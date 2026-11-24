@@ -17,7 +17,7 @@ import { idDictionaryMap } from '@/resources/dictionary'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
 import { IsDesktop, isLegal } from '@/utils'
 import { Link } from 'react-router-dom'
-import ValBackground, { useValorantSurfaceClass } from '@/valorant/Background'
+import { useValorantSurfaceClass } from '@/valorant/Background'
 import ValorantBridge from '@/valorant/ValorantBridge'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
@@ -180,7 +180,6 @@ const App: React.FC = () => {
         </div>
       </Layout>
       <WordList />
-      <ValBackground />
       <ValorantBridge />
     </TypingContext.Provider>
   )

@@ -12,6 +12,7 @@ const rawAgents = raw.agents as Array<{
   role: string
   color: string
   lines: Record<'praise' | 'taunt' | 'start' | 'finish', string>
+  linesEn?: Record<'praise' | 'taunt' | 'start' | 'finish', string>
 }>
 
 type SkinTier = ValSkinEntry['tier']
@@ -47,6 +48,7 @@ export const VAL_AGENTS: ValAgentEntry[] = rawAgents.map((a) => ({
       id: a.id + '-' + key + '-1',
       nameZh: meta.nameZh,
       text: a.lines[key],
+      textOriginal: a.linesEn?.[key],
       mood: meta.mood,
       file: VAL_ASSET_BASE + 'agents/' + a.id + '/' + key + '.m4a',
     }

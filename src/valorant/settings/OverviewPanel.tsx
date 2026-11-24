@@ -1,6 +1,7 @@
 import { Btn, Row, Section, Slider, Toggle } from './controls'
 import { playSound } from '../audioEngine'
 import { SKIN_TIER_LABELS, VAL_AGENTS, VAL_SKINS } from '../catalog'
+import manifest from '../audio-manifest.json'
 import { ALL_VAL_EVENTS, EVENT_LABELS, valorantConfigAtom } from '../config'
 import { resolvePreviewAsset } from '../triggers'
 import type { ValEventKind, ValSkinEntry, ValorantConfig } from '../types'
@@ -8,6 +9,40 @@ import { useAtom, useAtomValue } from 'jotai'
 import { useState } from 'react'
 
 const TIER_ORDER: ValSkinEntry['tier'][] = ['exclusive', 'ultra', 'premium', 'deluxe', 'select', 'standard']
+
+const skinSources = manifest as unknown as {
+  skins: Record<string, { status: string; sourceFile?: string; matchKind?: string }>
+}
+
+/** 音效来源说明：专属击杀音 / 游戏默认击杀音 / 合成占位音，不糊弄 */
+function SkinSourceNote({ skinId }: { skinId: string }) {
+  const info = skinSources.skins?.[skinId]
+  const kind = info?.matchKind
+  const label =
+    info?.status !== 'real'
+      ? '合成占位音（可在「音效绑定」里换成自己的音频）'
+      : kind === 'default-kill-sound'
+        ? '游戏默认击杀音（该枪皮线官方素材里没有专属击杀音）'
+        : kind === 'line-variant'
+          ? '同系列击杀音'
+          : '枪皮专属击杀音'
+  return (
+    <p className="mt-1 flex items-center gap-2 text-[11px] text-gray-400 dark:text-gray-500">
+      <span
+        className={
+          'rounded px-1.5 py-0.5 font-semibold ' +
+          (info?.status === 'real' && kind !== 'default-kill-sound'
+            ? 'bg-[#ff4655]/12 text-[#ff4655]'
+            : 'bg-neutral-200/70 text-neutral-500 dark:bg-neutral-700 dark:text-neutral-300')
+        }
+      >
+        {info?.status === 'real' ? '真实游戏音效' : '占位音'}
+      </span>
+      <span>{label}</span>
+      {info?.sourceFile ? <span className="truncate opacity-70">· {info.sourceFile}</span> : null}
+    </p>
+  )
+}
 
 export default function OverviewPanel() {
   const [cfg, setCfg] = useAtom(valorantConfigAtom)
@@ -64,6 +99,7 @@ export default function OverviewPanel() {
         <p className="text-xs text-gray-400 dark:text-gray-500">
           {VAL_SKINS.find((s) => s.id === cfg.skinId)?.desc ?? '该枪皮没有描述'}
         </p>
+        <SkinSourceNote skinId={cfg.skinId} />
       </Section>
 
       <Section title="当前特工" desc="连错时谁出来嘲讽你、连对时谁夸你，都由这里决定。">

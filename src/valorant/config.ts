@@ -36,6 +36,9 @@ export const defaultTriggers: ValTriggerConfig = {
 
 export const emptyBinding: ValBinding = { mode: 'fixed' }
 
+/** 背景观感版本：改动默认观感时 +1，老配置会被迁移一次 */
+const BG_VERSION = 7
+
 export const defaultValorantConfig: ValorantConfig = {
   isOpen: true,
   volume: 0.8,
@@ -55,13 +58,49 @@ export const defaultValorantConfig: ValorantConfig = {
   background: {
     enabled: true,
     imageUrl: DEFAULT_BACKGROUND,
-    blur: 0,
-    dim: 0.28,
-    opacity: 1,
+    // 壁纸默认虚化 + 薄纱：原图会跟正文抢注意力，且深色正文压不住照片
+    // 壁纸清晰可见：靠「半透明壁纸(浓度) + 极轻柔化」保持画面感，靠文字光晕保证可读性
+    blur: 6,
+    dim: 0.08,
+    opacity: 0.55,
     frostedPanel: true,
+    bgv: BG_VERSION,
   },
   showCombo: true,
 }
+
+/**
+ * 一次性迁移：老版本的持久化配置里 blur=0 / dim=0.28，直接套在原图上很难看。
+ * 这里把背景观感升级到当前默认（只动背景，用户其它设置保持不动）。
+ */
+function migrateBackgroundOnce() {
+  if (typeof localStorage === 'undefined') return
+  const KEY = 'valorantConfig'
+  try {
+    const raw = localStorage.getItem(KEY)
+    if (!raw) return
+    const parsed = JSON.parse(raw) as Partial<ValorantConfig> & Record<string, unknown>
+    if (!parsed || typeof parsed !== 'object') return
+    const bg = (parsed.background ?? {}) as Partial<ValorantConfig['background']>
+    if (bg.bgv === BG_VERSION) return
+    const next = {
+      ...parsed,
+      background: {
+        ...defaultValorantConfig.background,
+        ...bg,
+        // 只提升“没被刻意调过”的模糊；用户明确设过更大值就保留
+        blur: Math.max(bg.blur ?? 0, defaultValorantConfig.background.blur),
+        dim: Math.max(bg.dim ?? 0, defaultValorantConfig.background.dim),
+        bgv: BG_VERSION,
+      },
+    }
+    localStorage.setItem(KEY, JSON.stringify(next))
+  } catch {
+    // 配置损坏就忽略，atomForConfig 自己会回退默认值
+  }
+}
+
+migrateBackgroundOnce()
 
 /** 持久化配置：localStorage key = valorantConfig */
 export const valorantConfigAtom = atomForConfig('valorantConfig', defaultValorantConfig)

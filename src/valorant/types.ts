@@ -49,10 +49,12 @@ export type ValAgentLineMood = 'praise' | 'taunt' | 'start' | 'finish' | 'ace'
 
 export type ValAgentLine = {
   id: string
-  /** 中文小标题，如「首杀夸奖」 */
+  /** 中文小标题，如「连击夸奖」 */
   nameZh: string
-  /** 原版英文台词（文字，用于展示） */
+  /** 台词正文（默认中文，贴合国服配音语气） */
   text: string
+  /** 英文原文，仅作展示参考 */
+  textOriginal?: string
   mood: ValAgentLineMood
   file: string
 }
@@ -130,7 +132,10 @@ export type ValorantConfig = {
     /** 背景层不透明度 0-1 */
     opacity: number
     /** 是否在内容卡片后面加毛玻璃底，保证字可读 */
+    /** 柔光衬底：只在文字周围铺一层无边框光晕，不是白卡片 */
     frostedPanel: boolean
+    /** 背景观感版本，用于把老的持久化配置迁移到新默认值 */
+    bgv?: number
   }
   /** 连对时屏幕上的连击计数器 */
   showCombo: boolean

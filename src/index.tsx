@@ -5,6 +5,7 @@ import { FriendLinks } from './pages/FriendLinks'
 import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
 import { isOpenDarkModeAtom } from '@/store'
+import ValBackground from '@/valorant/Background'
 import { Analytics } from '@vercel/analytics/react'
 import 'animate.css'
 import { useAtomValue } from 'jotai'
@@ -48,6 +49,8 @@ function Root() {
 
   return (
     <React.StrictMode>
+      {/* 全局背景层：只在这里挂一次（portal 到 body），所有路由共享 */}
+      <ValBackground />
       <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
         <Suspense fallback={<Loading />}>
           <Routes>

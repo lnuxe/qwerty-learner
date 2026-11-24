@@ -61,7 +61,7 @@ export default function AppearancePanel() {
         <Row label="启用背景">
           <Toggle checked={bg.enabled} onChange={(v) => patchBg({ enabled: v })} />
         </Row>
-        <Row label="毛玻璃内容底" hint="在练习区后面垫一层半透明底，字不会被花背景吃掉">
+        <Row label="柔光衬底" hint="只在正文后面铺一层无边框光晕，不挡壁纸">
           <Toggle checked={bg.frostedPanel} onChange={(v) => patchBg({ frostedPanel: v })} />
         </Row>
         <div className="flex flex-wrap gap-2">
@@ -73,13 +73,13 @@ export default function AppearancePanel() {
       </Section>
 
       <Section title="画面调节">
-        <Row label="模糊">
+        <Row label="背景虚化" hint="把壁纸推远一点，正文更清楚；0 = 用原图">
           <Slider value={bg.blur} min={0} max={24} step={1} onChange={(v) => patchBg({ blur: v })} format={(v) => v + 'px'} />
         </Row>
-        <Row label="暗化">
-          <Slider value={bg.dim} min={0} max={0.9} step={0.02} onChange={(v) => patchBg({ dim: v })} format={(v) => Math.round(v * 100) + '%'} />
+        <Row label="薄纱浓度" hint="浅色主题是白纱、深色主题是黑纱，越高正文越清楚">
+          <Slider value={bg.dim} min={0} max={0.92} step={0.02} onChange={(v) => patchBg({ dim: v })} format={(v) => Math.round(v * 100) + '%'} />
         </Row>
-        <Row label="不透明度">
+        <Row label="壁纸浓度" hint="越低越淡、正文越清楚；越高壁纸越清楚">
           <Slider value={bg.opacity} min={0.1} max={1} step={0.02} onChange={(v) => patchBg({ opacity: v })} format={(v) => Math.round(v * 100) + '%'} />
         </Row>
       </Section>

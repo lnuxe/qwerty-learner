@@ -513,11 +513,18 @@
       "role": "controller",
       "color": "#c8724a",
       "lines": {
+        "praise": "干得不错，再来一遍",
+        "taunt": "站住位置，你这枪法像洒水",
+        "start": "来，先把桌子摆好",
+        "finish": "赢下来，撤退我掩护"
+      },
+      "linesEn": {
         "praise": "Good work. Now do it again.",
-        "taunt": "Hold your ground. You're spraying worse than a stormtrooper.",
+        "taunt": "Hold your ground. You're spraying worse than a rookie.",
         "start": "Let's set the table.",
         "finish": "Take the win. I'll cover the retreat."
-      }
+      },
+      "voice": "Rocko"
     },
     {
       "id": "viper",
@@ -526,11 +533,18 @@
       "role": "controller",
       "color": "#3fbf8f",
       "lines": {
+        "praise": "效率不错，几乎算冷静",
+        "taunt": "你的准星，一股毒味",
+        "start": "呼吸别太深，会死",
+        "finish": "清干净了，回家吧"
+      },
+      "linesEn": {
         "praise": "Efficient. Almost clinical.",
         "taunt": "Your aim is a toxin I can smell.",
         "start": "Don't breathe too deep.",
         "finish": "Cleared. Go home."
-      }
+      },
+      "voice": "Shelley"
     },
     {
       "id": "omen",
@@ -539,11 +553,18 @@
       "role": "controller",
       "color": "#6b5bd1",
       "lines": {
+        "praise": "有意思，你还记得怎么打中",
+        "taunt": "你在黑暗里摸索，我就住那儿",
+        "start": "醒过来，再来一次",
+        "finish": "噩梦，到此为止了"
+      },
+      "linesEn": {
         "praise": "Interesting. You remember how to hit.",
-        "taunt": "You're stumbling in the dark. I live there.",
+        "taunt": "You stumble in the dark. I live there.",
         "start": "Wake up. Again.",
         "finish": "The nightmare ends here."
-      }
+      },
+      "voice": "Reed"
     },
     {
       "id": "killjoy",
@@ -552,11 +573,18 @@
       "role": "sentinel",
       "color": "#f2c14e",
       "lines": {
+        "praise": "不错嘛，我的炮台都要嫉妒",
+        "taunt": "卡住了？我给你造个计算器",
+        "start": "来，把诊断跑一遍",
+        "finish": "系统全绿，基本上吧"
+      },
+      "linesEn": {
         "praise": "Nice! My turret would be jealous.",
         "taunt": "Stuck? I can build you a calculator.",
         "start": "Let's run the diagnostics.",
         "finish": "All systems green. Mostly."
-      }
+      },
+      "voice": "Sandy"
     },
     {
       "id": "cypher",
@@ -565,11 +593,18 @@
       "role": "sentinel",
       "color": "#d9b382",
       "lines": {
+        "praise": "精准，我喜欢这种手感",
+        "taunt": "你这一枪怎么偏，我早知道",
+        "start": "情报，才是胜负手",
+        "finish": "案子结了，线都收回来"
+      },
+      "linesEn": {
         "praise": "Precise. I like that.",
         "taunt": "I already know how you'll miss.",
         "start": "Information wins wars.",
         "finish": "Case closed."
-      }
+      },
+      "voice": "Eddy"
     },
     {
       "id": "sova",
@@ -578,11 +613,18 @@
       "role": "initiator",
       "color": "#7fb3d5",
       "lines": {
+        "praise": "枪很干净，每一发我都看见",
+        "taunt": "他们会在雪地里找到你",
+        "start": "手要稳，眼睛要准",
+        "finish": "这场狩猎到此结束"
+      },
+      "linesEn": {
         "praise": "Clean shots. I saw every one.",
         "taunt": "They'll find you in the snow.",
         "start": "Steady hand, sharp eye.",
         "finish": "The hunt is over."
-      }
+      },
+      "voice": "Rocko"
     },
     {
       "id": "sage",
@@ -591,11 +633,18 @@
       "role": "sentinel",
       "color": "#7fe0c3",
       "lines": {
+        "praise": "心很稳，你在进步",
+        "taunt": "呼吸，慌才是你的敌人",
+        "start": "先定住自己，再出手",
+        "finish": "歇会儿吧，你值得"
+      },
+      "linesEn": {
         "praise": "Calm. You're improving.",
         "taunt": "Breathe. Panic is the enemy.",
         "start": "Center yourself.",
         "finish": "Rest. You earned it."
-      }
+      },
+      "voice": "Tingting"
     },
     {
       "id": "phoenix",
@@ -604,11 +653,18 @@
       "role": "duelist",
       "color": "#ff7a3d",
       "lines": {
+        "praise": "这才叫手感，看到没",
+        "taunt": "来啊兄弟，你这是在玩火",
+        "start": "点火，给我烧起来",
+        "finish": "完美收官，下一回合"
+      },
+      "linesEn": {
         "praise": "That's what I'm talking about!",
         "taunt": "Come on, mate, you're playing with fire.",
         "start": "Let's light it up.",
         "finish": "Flawless. Next round."
-      }
+      },
+      "voice": "Eddy"
     },
     {
       "id": "jett",
@@ -617,11 +673,18 @@
       "role": "duelist",
       "color": "#8fd3ff",
       "lines": {
+        "praise": "不错，跟得上我的节奏",
+        "taunt": "你在犹豫，犹豫就会输",
+        "start": "动起来，动作快点",
+        "finish": "干净利落，别慢下来"
+      },
+      "linesEn": {
         "praise": "Nice. Keep up with me.",
         "taunt": "You're hesitating. That's how you lose.",
         "start": "Let's move. Fast.",
         "finish": "Clean. Don't get slow now."
-      }
+      },
+      "voice": "Flo"
     },
     {
       "id": "reyna",
@@ -630,11 +693,18 @@
       "role": "duelist",
       "color": "#b45bd6",
       "lines": {
+        "praise": "好味道，再来一口",
+        "taunt": "你是装成猎手的猎物",
+        "start": "喂我，我还没吃饱",
+        "finish": "他们什么都不是，你可以更强"
+      },
+      "linesEn": {
         "praise": "Delicious. More.",
         "taunt": "You're prey pretending to be a predator.",
         "start": "Feed me.",
         "finish": "They were nothing. You could be more."
-      }
+      },
+      "voice": "Shelley"
     },
     {
       "id": "raze",
@@ -643,11 +713,18 @@
       "role": "duelist",
       "color": "#ffb347",
       "lines": {
+        "praise": "炸得漂亮，就是这个味",
+        "taunt": "哈！我的手雷都瞄得比你准",
+        "start": "来，炸点东西玩玩",
+        "finish": "炸完收工，这章过了"
+      },
+      "linesEn": {
         "praise": "Boom! Beautiful!",
         "taunt": "Ha! Even my grenade aims better.",
         "start": "Let's blow something up.",
         "finish": "Boom goes the chapter."
-      }
+      },
+      "voice": "Sandy"
     },
     {
       "id": "breach",
@@ -656,11 +733,18 @@
       "role": "initiator",
       "color": "#e0894a",
       "lines": {
+        "praise": "这才叫一击，够狠",
+        "taunt": "你打得跟个湿纸袋一样",
+        "start": "震起来，把地砸开",
+        "finish": "结束，别再找借口"
+      },
+      "linesEn": {
         "praise": "Now that's a strike!",
         "taunt": "You fight like a wet paper bag.",
         "start": "Shake the ground.",
         "finish": "Done. No more excuses."
-      }
+      },
+      "voice": "Rocko"
     },
     {
       "id": "skye",
@@ -669,11 +753,18 @@
       "role": "initiator",
       "color": "#8fd67a",
       "lines": {
+        "praise": "干得漂亮，真的漂亮",
+        "taunt": "我的鹰看见了，全场都看见了",
+        "start": "走，我们找条路出来",
+        "finish": "这边全清了，走吧"
+      },
+      "linesEn": {
         "praise": "Beautiful work!",
         "taunt": "My hawk saw that miss. Everyone did.",
         "start": "Let's go find our path.",
         "finish": "All clear out here."
-      }
+      },
+      "voice": "Tingting"
     },
     {
       "id": "yoru",
@@ -682,11 +773,18 @@
       "role": "duelist",
       "color": "#5b8def",
       "lines": {
+        "praise": "还行，对游客来说不赖",
+        "taunt": "你就是个会敲键盘的笑话",
+        "start": "穿过这道门，别眨眼",
+        "finish": "没了，你也该没了"
+      },
+      "linesEn": {
         "praise": "Not bad. For a tourist.",
         "taunt": "You're a joke with a keyboard.",
         "start": "Step through. Don't blink.",
         "finish": "Gone. Like you should be."
-      }
+      },
+      "voice": "Reed"
     },
     {
       "id": "astra",
@@ -695,11 +793,18 @@
       "role": "controller",
       "color": "#b58cf0",
       "lines": {
+        "praise": "星辰也认可这一手",
+        "taunt": "你在漂，把锚扎稳点",
+        "start": "把星座，一颗颗对齐",
+        "finish": "星辰都安静下来了"
+      },
+      "linesEn": {
         "praise": "The stars approve.",
         "taunt": "You're drifting. Anchor yourself.",
         "start": "Align the constellation.",
         "finish": "The stars are quiet now."
-      }
+      },
+      "voice": "Shelley"
     },
     {
       "id": "kayo",
@@ -708,11 +813,18 @@
       "role": "initiator",
       "color": "#7d8fa8",
       "lines": {
+        "praise": "目标已清除，干净",
+        "taunt": "你的表现，统计上很丢人",
+        "start": "压制协议，已上线",
+        "finish": "任务完成，目标清除"
+      },
+      "linesEn": {
         "praise": "Target neutralized.",
         "taunt": "Your performance is statistically embarrassing.",
         "start": "Suppression protocol online.",
         "finish": "Mission complete."
-      }
+      },
+      "voice": "Eddy"
     },
     {
       "id": "chamber",
@@ -721,11 +833,18 @@
       "role": "sentinel",
       "color": "#d9c39a",
       "lines": {
+        "praise": "这一手，实在精美",
+        "taunt": "一场慢慢放的悲剧",
+        "start": "我们开始吧，别急",
+        "finish": "完美执行，无可挑剔"
+      },
+      "linesEn": {
         "praise": "Exquisite. Truly.",
         "taunt": "A tragedy in slow motion.",
         "start": "Shall we begin?",
         "finish": "Perfectly executed."
-      }
+      },
+      "voice": "Reed"
     },
     {
       "id": "neon",
@@ -734,11 +853,18 @@
       "role": "duelist",
       "color": "#59d8ff",
       "lines": {
+        "praise": "哦，那一手真快啊",
+        "taunt": "太慢，太慢，还是太慢",
+        "start": "跑起来，把电拉满",
+        "finish": "全速，直接冲终点"
+      },
+      "linesEn": {
         "praise": "Oh that was fast!",
         "taunt": "Too slow, too slow, too slow!",
         "start": "Let's run the grid.",
         "finish": "Full speed, finish line."
-      }
+      },
+      "voice": "Sandy"
     },
     {
       "id": "fade",
@@ -747,11 +873,18 @@
       "role": "initiator",
       "color": "#4f7fb0",
       "lines": {
+        "praise": "你的恐惧，尝起来像胜利",
+        "taunt": "我看见你的噩梦了，它们也在打字",
+        "start": "让我看看，谁缠着你",
+        "finish": "恐惧，终于退下去了"
+      },
+      "linesEn": {
         "praise": "Your fear tastes like victory.",
         "taunt": "I see your nightmares. They're typing.",
         "start": "Let me show you what haunts you.",
         "finish": "The terror recedes."
-      }
+      },
+      "voice": "Shelley"
     },
     {
       "id": "harbor",
@@ -760,11 +893,18 @@
       "role": "controller",
       "color": "#4fb3a8",
       "lines": {
+        "praise": "稳得像潮水，就好",
+        "taunt": "你在自己的失误里溺水",
+        "start": "水位在涨，站住了",
+        "finish": "洪水退了，该收尾"
+      },
+      "linesEn": {
         "praise": "Steady as a tide.",
         "taunt": "You're drowning in your own keys.",
         "start": "The water rises.",
         "finish": "The flood recedes."
-      }
+      },
+      "voice": "Rocko"
     },
     {
       "id": "gekko",
@@ -773,11 +913,18 @@
       "role": "initiator",
       "color": "#8ed94f",
       "lines": {
+        "praise": "帅！我的伙计都爱你",
+        "taunt": "翼锋都比你敲得好",
+        "start": "来吧，兄弟们上！",
+        "finish": "我们做到了，一起"
+      },
+      "linesEn": {
         "praise": "Sick! My crew loves you.",
         "taunt": "Wingman could type that better.",
         "start": "Let's go, team!",
         "finish": "We did it, all of us."
-      }
+      },
+      "voice": "Flo"
     },
     {
       "id": "deadlock",
@@ -786,11 +933,18 @@
       "role": "sentinel",
       "color": "#9aa7b8",
       "lines": {
+        "praise": "控住了，干得漂亮",
+        "taunt": "你被自己的线缠住了",
+        "start": "封锁周界，别漏口",
+        "finish": "这里，什么都过不来"
+      },
+      "linesEn": {
         "praise": "Contained. Well done.",
         "taunt": "You're tangled in your own wires.",
         "start": "Seal the perimeter.",
         "finish": "Nothing gets through."
-      }
+      },
+      "voice": "Tingting"
     },
     {
       "id": "iso",
@@ -799,11 +953,18 @@
       "role": "duelist",
       "color": "#7f6bd6",
       "lines": {
+        "praise": "干净，碰都碰不到",
+        "taunt": "一有压力，你就散",
+        "start": "别想，走进节奏里",
+        "finish": "击杀确认，可以走了"
+      },
+      "linesEn": {
         "praise": "Clean. Untouchable.",
         "taunt": "You fold under pressure.",
         "start": "Step into the flow.",
         "finish": "Kill confirmed."
-      }
+      },
+      "voice": "Eddy"
     },
     {
       "id": "clove",
@@ -812,11 +973,18 @@
       "role": "controller",
       "color": "#e58fd0",
       "lines": {
+        "praise": "哇，看看你这一手",
+        "taunt": "又死了？我也常这样",
+        "start": "来玩点更有意思的",
+        "finish": "当鬼能当这样，不错"
+      },
+      "linesEn": {
         "praise": "Ooh, look at you go!",
         "taunt": "Dying again? Relatable.",
         "start": "Let's have some fun.",
         "finish": "Not bad for a ghost."
-      }
+      },
+      "voice": "Flo"
     },
     {
       "id": "vyse",
@@ -825,11 +993,18 @@
       "role": "sentinel",
       "color": "#8f7fb3",
       "lines": {
+        "praise": "算得真准，我喜欢",
+        "taunt": "是你自己走进来的",
+        "start": "把陷阱，一个个布好",
+        "finish": "全抓住了，一个不剩"
+      },
+      "linesEn": {
         "praise": "Calculated. Delicious.",
         "taunt": "You walked right into that.",
         "start": "Let's set the trap.",
         "finish": "Caught. Every one."
-      }
+      },
+      "voice": "Shelley"
     },
     {
       "id": "tejo",
@@ -838,11 +1013,18 @@
       "role": "initiator",
       "color": "#d9a04a",
       "lines": {
+        "praise": "精准打击，真漂亮",
+        "taunt": "你的准星就是一盘散点",
+        "start": "目标，全部标记好了",
+        "finish": "打击完成，干净收队"
+      },
+      "linesEn": {
         "praise": "Precision strike.",
         "taunt": "Your aim is a scatter plot.",
         "start": "Targets painted.",
         "finish": "Strike complete."
-      }
+      },
+      "voice": "Rocko"
     },
     {
       "id": "waylay",
@@ -851,11 +1033,18 @@
       "role": "duelist",
       "color": "#f0c05b",
       "lines": {
+        "praise": "又快又亮，真是漂亮",
+        "taunt": "你堵在慢车道上了",
+        "start": "亮起来，跟紧我走",
+        "finish": "你已经看不见我了"
+      },
+      "linesEn": {
         "praise": "Fast and bright!",
         "taunt": "You're stuck in the slow lane.",
         "start": "Light it up.",
         "finish": "Out of sight."
-      }
+      },
+      "voice": "Tingting"
     },
     {
       "id": "veto",
@@ -864,11 +1053,18 @@
       "role": "duelist",
       "color": "#c0c8d4",
       "lines": {
+        "praise": "否决，漂亮地否决",
+        "taunt": "就这表现，我否决",
+        "start": "不是针对谁，就是不行",
+        "finish": "直接排除，不留情"
+      },
+      "linesEn": {
         "praise": "Denied. Beautifully.",
         "taunt": "I veto that performance.",
         "start": "Nothing personal.",
         "finish": "Ruled out."
-      }
+      },
+      "voice": "Reed"
     }
   ]
 }

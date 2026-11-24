@@ -25,8 +25,8 @@ export default function ValorantPage() {
   const agent = VAL_AGENTS.find((a) => a.id === cfg.agentId)
 
   return (
-    <div className="min-h-screen bg-[#faf9ff] text-gray-800 dark:bg-gray-900 dark:text-gray-100">
-      <div className="mx-auto max-w-6xl px-6 py-8">
+    <div className="min-h-screen bg-[#faf9ff]/85 text-gray-800 backdrop-blur-sm dark:bg-gray-900/85 dark:text-gray-100">
+      <div className="val-page-surface mx-auto my-6 max-w-6xl px-6 py-8">
         <header className="mb-6 flex flex-wrap items-end justify-between gap-3 border-b border-neutral-200 pb-4 dark:border-neutral-700">
           <div>
             <div className="text-xs font-bold tracking-[0.28em] text-[#ff4655]">VALORANT × QWERTY LEARNER</div>

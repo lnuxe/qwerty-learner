@@ -1,0 +1,198 @@
+{
+  "brimstone": {
+    "v": "Rocko",
+    "praise": "稳住，就这样压下去",
+    "taunt": "别慌，先把手放稳",
+    "start": "都听我指挥，开始",
+    "finish": "收工，干得漂亮"
+  },
+  "viper": {
+    "v": "Shelley",
+    "praise": "很好，毒素正在生效",
+    "taunt": "手抖成这样，还想赢？",
+    "start": "屏住呼吸，开始",
+    "finish": "结束了，别再碰我"
+  },
+  "omen": {
+    "v": "Reed",
+    "praise": "黑暗站在你这边",
+    "taunt": "你在害怕，我看得见",
+    "start": "让我看看你的恐惧",
+    "finish": "梦该醒了"
+  },
+  "killjoy": {
+    "v": "Sandy",
+    "praise": "完美，机器都服了你",
+    "taunt": "别乱来，会炸的哦",
+    "start": "看我的新发明",
+    "finish": "实验成功，收工"
+  },
+  "cypher": {
+    "v": "Eddy",
+    "praise": "一切都在我眼里",
+    "taunt": "你漏了什么，我全记着",
+    "start": "让我先看清楚你",
+    "finish": "情报到手，撤"
+  },
+  "sova": {
+    "v": "Rocko",
+    "praise": "精准，像箭一样",
+    "taunt": "你的手在飘",
+    "start": "猎人已经就位",
+    "finish": "猎物清空"
+  },
+  "sage": {
+    "v": "Tingting",
+    "praise": "很好，继续保持",
+    "taunt": "心乱了，手也乱了",
+    "start": "深呼吸，我们开始",
+    "finish": "都还活着，很好"
+  },
+  "phoenix": {
+    "v": "Eddy",
+    "praise": "这就对了，燃起来",
+    "taunt": "你这操作，我看着都疼",
+    "start": "看我的，别眨眼",
+    "finish": "火灭了，我赢了"
+  },
+  "jett": {
+    "v": "Flo",
+    "praise": "不错，跟得上我",
+    "taunt": "慢就输，你太慢了",
+    "start": "动起来，快点",
+    "finish": "干净利落，走"
+  },
+  "reyna": {
+    "v": "Shelley",
+    "praise": "你的灵魂还算能吃",
+    "taunt": "弱者就该被吞掉",
+    "start": "让我看看你的渴望",
+    "finish": "饱了，下一个"
+  },
+  "raze": {
+    "v": "Sandy",
+    "praise": "炸得漂亮",
+    "taunt": "你连引线都点不着",
+    "start": "都让开，我要炸了",
+    "finish": "收工，轰"
+  },
+  "breach": {
+    "v": "Rocko",
+    "praise": "硬气，就这样干",
+    "taunt": "软绵绵的，用力啊",
+    "start": "准备好了就撞上来",
+    "finish": "全倒了，痛快"
+  },
+  "skye": {
+    "v": "Tingting",
+    "praise": "对，就是这个节奏",
+    "taunt": "别急，先看清再动手",
+    "start": "跟着我，别掉队",
+    "finish": "都平安，很好"
+  },
+  "yoru": {
+    "v": "Reed",
+    "praise": "还算像样",
+    "taunt": "这种手速也敢上场？",
+    "start": "看我给你表演",
+    "finish": "无聊，结束了"
+  },
+  "astra": {
+    "v": "Shelley",
+    "praise": "星象站在你这边",
+    "taunt": "你的节奏乱了，我看见了",
+    "start": "宇宙已经就位",
+    "finish": "归于星辰"
+  },
+  "kayo": {
+    "v": "Eddy",
+    "praise": "效率达标，继续",
+    "taunt": "检测到操作失误",
+    "start": "系统启动，开始压制",
+    "finish": "任务完成，关机"
+  },
+  "chamber": {
+    "v": "Reed",
+    "praise": "优雅，无可挑剔",
+    "taunt": "粗鲁，也很慢",
+    "start": "让我们体面地开始",
+    "finish": "完美收官"
+  },
+  "neon": {
+    "v": "Sandy",
+    "praise": "快，再快一点",
+    "taunt": "你这速度，我等着都困了",
+    "start": "通电，冲",
+    "finish": "电流断了，收工"
+  },
+  "fade": {
+    "v": "Shelley",
+    "praise": "你的恐惧成了武器",
+    "taunt": "我看见你的噩梦了",
+    "start": "把恐惧交给我",
+    "finish": "噩梦结束了"
+  },
+  "harbor": {
+    "v": "Rocko",
+    "praise": "稳，像水一样",
+    "taunt": "你的手在打颤",
+    "start": "潮水要来了",
+    "finish": "水退了，收工"
+  },
+  "gekko": {
+    "v": "Flo",
+    "praise": "漂亮，兄弟们上",
+    "taunt": "别慌别慌，深呼吸",
+    "start": "走起，跟我来",
+    "finish": "搞定，回家"
+  },
+  "deadlock": {
+    "v": "Tingting",
+    "praise": "锁住了，继续保持",
+    "taunt": "破绽太多，我都能听见",
+    "start": "防线已经架好",
+    "finish": "一个都跑不掉"
+  },
+  "iso": {
+    "v": "Eddy",
+    "praise": "稳，就是这样",
+    "taunt": "别急，先把气沉住",
+    "start": "交给我，开始",
+    "finish": "干净，结束"
+  },
+  "clove": {
+    "v": "Flo",
+    "praise": "不错嘛，有点意思",
+    "taunt": "别怕，死一次也没什么",
+    "start": "又活过来了，玩吧",
+    "finish": "这次也没死成，走了"
+  },
+  "vyse": {
+    "v": "Shelley",
+    "praise": "不错，金属听你的",
+    "taunt": "你的动作太糙了",
+    "start": "让金属站起来",
+    "finish": "凝固，结束"
+  },
+  "tejo": {
+    "v": "Rocko",
+    "praise": "准，就是这样打",
+    "taunt": "你的手在打滑",
+    "start": "坐标已锁定",
+    "finish": "目标清除，撤"
+  },
+  "waylay": {
+    "v": "Tingting",
+    "praise": "很好，光跟得上你",
+    "taunt": "你太急了，稳一点",
+    "start": "让我照亮战场",
+    "finish": "光收了，收工"
+  },
+  "veto": {
+    "v": "Reed",
+    "praise": "硬，就这样",
+    "taunt": "软，太软了",
+    "start": "开始吧，别废话",
+    "finish": "完事，走人"
+  }
+}
