@@ -2,5 +2,19 @@
 * text eol=lf
 *.png binary
 *.jpeg binary
+*.jpg binary
 *.ico binary
+*.webp binary
+*.gif binary
 *.wav binary
+*.mp3 binary
+*.m4a binary
+*.aac binary
+*.ogg binary
+*.flac binary
+*.mp4 binary
+*.webm binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
