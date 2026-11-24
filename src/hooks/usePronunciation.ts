@@ -9,7 +9,8 @@ import { useEffect, useMemo, useState } from 'react'
 import useSound from 'use-sound'
 import type { HookOptions } from 'use-sound/dist/types'
 
-const pronunciationApi = 'https://dict.youdao.com/dictvoice?audio='
+// 本地部署：走同源代理 /dictvoice（由 qwerty-serve.mjs 转发到 dict.youdao.com），避免浏览器跨域拦截发音
+export const pronunciationApi = '/dictvoice?audio='
 
 // Youdao returns HTTP 500 for parentheses, quotation marks, and an encoded "&".
 // Apostrophes inside a word, as in "don't", still pronounce.

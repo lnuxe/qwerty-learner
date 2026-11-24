@@ -1,0 +1,874 @@
+{
+  "skins": [
+    {
+      "id": "reaver",
+      "name": "Reaver",
+      "nameZh": "掠夺者",
+      "tier": "exclusive",
+      "desc": "低铜管钟体 + 长回声，一记像丧钟落地",
+      "ace": true
+    },
+    {
+      "id": "elderflame",
+      "name": "Elderflame",
+      "nameZh": "上古龙焰",
+      "tier": "exclusive",
+      "desc": "龙吼 + 火焰爆裂，最重的击杀反馈",
+      "ace": true
+    },
+    {
+      "id": "glitchpop",
+      "name": "Glitchpop",
+      "nameZh": "故障朋克",
+      "tier": "ultra",
+      "desc": "电子故障撕裂声，霓虹味很冲",
+      "ace": false
+    },
+    {
+      "id": "prime",
+      "name": "Prime",
+      "nameZh": "至尊",
+      "tier": "premium",
+      "desc": "干脆的金属脆响，经典干净",
+      "ace": false
+    },
+    {
+      "id": "prime-2",
+      "name": "Prime//2.0",
+      "nameZh": "至尊 2.0",
+      "tier": "premium",
+      "desc": "比 1.0 更亮更短的晶体脆响",
+      "ace": false
+    },
+    {
+      "id": "sovereign",
+      "name": "Sovereign",
+      "nameZh": "君主",
+      "tier": "premium",
+      "desc": "玻璃/水晶轻击，优雅克制",
+      "ace": false
+    },
+    {
+      "id": "oni",
+      "name": "Oni",
+      "nameZh": "鬼",
+      "tier": "premium",
+      "desc": "太鼓皮革闷响 + 短促气声",
+      "ace": false
+    },
+    {
+      "id": "nebula",
+      "name": "Nebula",
+      "nameZh": "星云",
+      "tier": "premium",
+      "desc": "反向吸气的太空低鸣",
+      "ace": false
+    },
+    {
+      "id": "kuronami",
+      "name": "Kuronami",
+      "nameZh": "黑波",
+      "tier": "exclusive",
+      "desc": "水墨炸开 + 低频浪涌",
+      "ace": true
+    },
+    {
+      "id": "araxys",
+      "name": "Araxys",
+      "nameZh": "异星霸主",
+      "tier": "exclusive",
+      "desc": "生物机械嘶鸣，尖锐带金属毛刺",
+      "ace": true
+    },
+    {
+      "id": "magepunk",
+      "name": "Magepunk",
+      "nameZh": "魔法朋克",
+      "tier": "premium",
+      "desc": "电火花 + 线圈嗡鸣",
+      "ace": false
+    },
+    {
+      "id": "protocol-781a",
+      "name": "Protocol 781-A",
+      "nameZh": "协议 781-A",
+      "tier": "ultra",
+      "desc": "机械语音短促确认音",
+      "ace": false
+    },
+    {
+      "id": "champions-2021",
+      "name": "Champions 2021",
+      "nameZh": "冠军 2021",
+      "tier": "exclusive",
+      "desc": "冠军钟声，暖金质感",
+      "ace": true
+    },
+    {
+      "id": "champions-2022",
+      "name": "Champions 2022",
+      "nameZh": "冠军 2022",
+      "tier": "exclusive",
+      "desc": "更亮的冠军钟，带尾焰",
+      "ace": false
+    },
+    {
+      "id": "champions-2023",
+      "name": "Champions 2023",
+      "nameZh": "冠军 2023",
+      "tier": "exclusive",
+      "desc": "冠军号角 + 人群余响",
+      "ace": true
+    },
+    {
+      "id": "champions-2024",
+      "name": "Champions 2024",
+      "nameZh": "冠军 2024",
+      "tier": "exclusive",
+      "desc": "金属奖杯敲击",
+      "ace": false
+    },
+    {
+      "id": "champions-2025",
+      "name": "Champions 2025",
+      "nameZh": "冠军 2025",
+      "tier": "exclusive",
+      "desc": "更高频的冠军钟与电光",
+      "ace": true
+    },
+    {
+      "id": "origin",
+      "name": "Origin",
+      "nameZh": "起源",
+      "tier": "premium",
+      "desc": "棱镜折射的玻璃音",
+      "ace": false
+    },
+    {
+      "id": "spline",
+      "name": "Spline",
+      "nameZh": "流线",
+      "tier": "premium",
+      "desc": "顺滑上扬的合成器滑音",
+      "ace": false
+    },
+    {
+      "id": "prelude-to-chaos",
+      "name": "Prelude to Chaos",
+      "nameZh": "混沌序曲",
+      "tier": "exclusive",
+      "desc": "深渊轰鸣，像有东西被撕开",
+      "ace": true
+    },
+    {
+      "id": "forsaken",
+      "name": "Forsaken",
+      "nameZh": "失落",
+      "tier": "premium",
+      "desc": "枯枝断裂 + 空洞回响",
+      "ace": false
+    },
+    {
+      "id": "ion",
+      "name": "Ion",
+      "nameZh": "离子",
+      "tier": "premium",
+      "desc": "激光短击，极简",
+      "ace": false
+    },
+    {
+      "id": "recon",
+      "name": "Recon",
+      "nameZh": "侦察",
+      "tier": "premium",
+      "desc": "战术装备卡榫声",
+      "ace": false
+    },
+    {
+      "id": "gaia-vengeance",
+      "name": "Gaia's Vengeance",
+      "nameZh": "盖亚的复仇",
+      "tier": "exclusive",
+      "desc": "木石共鸣的厚重自然音",
+      "ace": true
+    },
+    {
+      "id": "ruination",
+      "name": "Ruination",
+      "nameZh": "破败",
+      "tier": "exclusive",
+      "desc": "锈蚀金属哀鸣 + 暗色回声",
+      "ace": false
+    },
+    {
+      "id": "sentinels-of-light",
+      "name": "Sentinels of Light",
+      "nameZh": "光明哨兵",
+      "tier": "exclusive",
+      "desc": "圣光钟鸣 + 金属余韵",
+      "ace": false
+    },
+    {
+      "id": "imperium",
+      "name": "Imperium",
+      "nameZh": "帝国",
+      "tier": "exclusive",
+      "desc": "军团号角，庄严压迫",
+      "ace": true
+    },
+    {
+      "id": "black-market",
+      "name": "Black.Market",
+      "nameZh": "黑市",
+      "tier": "exclusive",
+      "desc": "老式机械枪机 + 破喇叭",
+      "ace": false
+    },
+    {
+      "id": "rgx-11z-pro",
+      "name": "RGX 11z Pro",
+      "nameZh": "RGX 11Z PRO",
+      "tier": "premium",
+      "desc": "发光灯带通电噼啪",
+      "ace": false
+    },
+    {
+      "id": "overdrive",
+      "name": "Overdrive",
+      "nameZh": "超载",
+      "tier": "premium",
+      "desc": "引擎过载的滑音",
+      "ace": false
+    },
+    {
+      "id": "neo-frontier",
+      "name": "Neo Frontier",
+      "nameZh": "新边疆",
+      "tier": "premium",
+      "desc": "西部左轮空仓脆响",
+      "ace": false
+    },
+    {
+      "id": "xenohunter",
+      "name": "Xenohunter",
+      "nameZh": "异形猎手",
+      "tier": "premium",
+      "desc": "生物荧光脉动低鸣",
+      "ace": false
+    },
+    {
+      "id": "cryostasis",
+      "name": "Cryostasis",
+      "nameZh": "冰凝",
+      "tier": "premium",
+      "desc": "冰裂 + 冷气溢出",
+      "ace": false
+    },
+    {
+      "id": "smite",
+      "name": "Smite",
+      "nameZh": "重击",
+      "tier": "deluxe",
+      "desc": "钝器砸地，短促有力",
+      "ace": false
+    },
+    {
+      "id": "tethered-realms",
+      "name": "Tethered Realms",
+      "nameZh": "缚界",
+      "tier": "premium",
+      "desc": "锁链绷紧 + 空间扭曲",
+      "ace": false
+    },
+    {
+      "id": "couture",
+      "name": "Couture",
+      "nameZh": "高定",
+      "tier": "premium",
+      "desc": "布料摩挲 + 亮片细响",
+      "ace": false
+    },
+    {
+      "id": "aemondir",
+      "name": "Aemondir",
+      "nameZh": "剑魂",
+      "tier": "exclusive",
+      "desc": "刀锋出鞘的长金属啸叫",
+      "ace": true
+    },
+    {
+      "id": "nocturnum",
+      "name": "Nocturnum",
+      "nameZh": "夜曲",
+      "tier": "exclusive",
+      "desc": "管风琴低音 + 夜色回响",
+      "ace": true
+    },
+    {
+      "id": "artisan",
+      "name": "Artisan",
+      "nameZh": "匠人",
+      "tier": "premium",
+      "desc": "陶土/木料打磨声",
+      "ace": false
+    },
+    {
+      "id": "ego",
+      "name": "Ego",
+      "nameZh": "自我",
+      "tier": "deluxe",
+      "desc": "自信的口哨式上扬音",
+      "ace": false
+    },
+    {
+      "id": "infinity",
+      "name": "Infinity",
+      "nameZh": "无限",
+      "tier": "premium",
+      "desc": "循环叠音，层层扩散",
+      "ace": false
+    },
+    {
+      "id": "wasteland",
+      "name": "Wasteland",
+      "nameZh": "荒原",
+      "tier": "premium",
+      "desc": "沙尘闷响 + 金属摩擦",
+      "ace": false
+    },
+    {
+      "id": "velocity",
+      "name": "Velocity",
+      "nameZh": "疾速",
+      "tier": "deluxe",
+      "desc": "破风的短促呼啸",
+      "ace": false
+    },
+    {
+      "id": "luxe",
+      "name": "Luxe",
+      "nameZh": "奢华",
+      "tier": "select",
+      "desc": "轻巧的高频叮",
+      "ace": false
+    },
+    {
+      "id": "aristocrat",
+      "name": "Aristocrat",
+      "nameZh": "贵族",
+      "tier": "deluxe",
+      "desc": "银器相碰的清脆",
+      "ace": false
+    },
+    {
+      "id": "gun",
+      "name": "G.U.N.",
+      "nameZh": "巨炮",
+      "tier": "premium",
+      "desc": "重型炮闩 + 低频冲击",
+      "ace": false
+    },
+    {
+      "id": "sensation",
+      "name": "Sensation",
+      "nameZh": "感官",
+      "tier": "premium",
+      "desc": "心跳式双拍低频",
+      "ace": false
+    },
+    {
+      "id": "horizon",
+      "name": "Horizon",
+      "nameZh": "地平线",
+      "tier": "premium",
+      "desc": "开阔的空间混响",
+      "ace": false
+    },
+    {
+      "id": "radiant-crisis-001",
+      "name": "Radiant Crisis 001",
+      "nameZh": "辐射危机 001",
+      "tier": "premium",
+      "desc": "复古科幻的通电嗡鸣",
+      "ace": false
+    },
+    {
+      "id": "task-force-809",
+      "name": "Task Force 809",
+      "nameZh": "特遣队 809",
+      "tier": "premium",
+      "desc": "军用无线电确认音",
+      "ace": false
+    },
+    {
+      "id": "titanmail",
+      "name": "Titanmail",
+      "nameZh": "泰坦邮差",
+      "tier": "premium",
+      "desc": "厚重邮戳砸落",
+      "ace": false
+    },
+    {
+      "id": "composite",
+      "name": "Composite",
+      "nameZh": "复合",
+      "tier": "deluxe",
+      "desc": "碳纤维短脆音",
+      "ace": false
+    },
+    {
+      "id": "switchback",
+      "name": "Switchback",
+      "nameZh": "折返",
+      "tier": "deluxe",
+      "desc": "机械切换的双段音",
+      "ace": false
+    },
+    {
+      "id": "wunderkind",
+      "name": "Wunderkind",
+      "nameZh": "神童",
+      "tier": "select",
+      "desc": "玩具感的俏皮弹响",
+      "ace": false
+    },
+    {
+      "id": "cavalier",
+      "name": "Cavalier",
+      "nameZh": "骑士",
+      "tier": "premium",
+      "desc": "马刺与护甲撞击",
+      "ace": false
+    },
+    {
+      "id": "convex",
+      "name": "Convex",
+      "nameZh": "凸面",
+      "tier": "select",
+      "desc": "几何化的方波短音",
+      "ace": false
+    },
+    {
+      "id": "prism",
+      "name": "Prism",
+      "nameZh": "棱镜",
+      "tier": "deluxe",
+      "desc": "七彩折射的琶音",
+      "ace": false
+    },
+    {
+      "id": "galleria",
+      "name": "Galleria",
+      "nameZh": "回廊",
+      "tier": "premium",
+      "desc": "拱廊回声的钟音",
+      "ace": false
+    },
+    {
+      "id": "jigsaw",
+      "name": "Jigsaw",
+      "nameZh": "拼图",
+      "tier": "deluxe",
+      "desc": "拼块咬合的哒声",
+      "ace": false
+    },
+    {
+      "id": "silk",
+      "name": "Silk",
+      "nameZh": "丝绸",
+      "tier": "premium",
+      "desc": "顺滑气声 + 柔和铃",
+      "ace": false
+    },
+    {
+      "id": "cascade",
+      "name": "Cascade",
+      "nameZh": "瀑布",
+      "tier": "premium",
+      "desc": "水流下坠的琶音",
+      "ace": false
+    },
+    {
+      "id": "reverie",
+      "name": "Reverie",
+      "nameZh": "幻梦",
+      "tier": "premium",
+      "desc": "梦境铃音，软起音",
+      "ace": false
+    },
+    {
+      "id": "standard",
+      "name": "Standard",
+      "nameZh": "标准枪皮",
+      "tier": "standard",
+      "desc": "原版击杀提示音，最干净的 ding",
+      "ace": false
+    }
+  ],
+  "agents": [
+    {
+      "id": "brimstone",
+      "name": "Brimstone",
+      "nameZh": "布史东",
+      "role": "controller",
+      "color": "#c8724a",
+      "lines": {
+        "praise": "Good work. Now do it again.",
+        "taunt": "Hold your ground. You're spraying worse than a stormtrooper.",
+        "start": "Let's set the table.",
+        "finish": "Take the win. I'll cover the retreat."
+      }
+    },
+    {
+      "id": "viper",
+      "name": "Viper",
+      "nameZh": "薇蝮",
+      "role": "controller",
+      "color": "#3fbf8f",
+      "lines": {
+        "praise": "Efficient. Almost clinical.",
+        "taunt": "Your aim is a toxin I can smell.",
+        "start": "Don't breathe too deep.",
+        "finish": "Cleared. Go home."
+      }
+    },
+    {
+      "id": "omen",
+      "name": "Omen",
+      "nameZh": "欧门",
+      "role": "controller",
+      "color": "#6b5bd1",
+      "lines": {
+        "praise": "Interesting. You remember how to hit.",
+        "taunt": "You're stumbling in the dark. I live there.",
+        "start": "Wake up. Again.",
+        "finish": "The nightmare ends here."
+      }
+    },
+    {
+      "id": "killjoy",
+      "name": "Killjoy",
+      "nameZh": "奇乐",
+      "role": "sentinel",
+      "color": "#f2c14e",
+      "lines": {
+        "praise": "Nice! My turret would be jealous.",
+        "taunt": "Stuck? I can build you a calculator.",
+        "start": "Let's run the diagnostics.",
+        "finish": "All systems green. Mostly."
+      }
+    },
+    {
+      "id": "cypher",
+      "name": "Cypher",
+      "nameZh": "零",
+      "role": "sentinel",
+      "color": "#d9b382",
+      "lines": {
+        "praise": "Precise. I like that.",
+        "taunt": "I already know how you'll miss.",
+        "start": "Information wins wars.",
+        "finish": "Case closed."
+      }
+    },
+    {
+      "id": "sova",
+      "name": "Sova",
+      "nameZh": "苏法",
+      "role": "initiator",
+      "color": "#7fb3d5",
+      "lines": {
+        "praise": "Clean shots. I saw every one.",
+        "taunt": "They'll find you in the snow.",
+        "start": "Steady hand, sharp eye.",
+        "finish": "The hunt is over."
+      }
+    },
+    {
+      "id": "sage",
+      "name": "Sage",
+      "nameZh": "贤者",
+      "role": "sentinel",
+      "color": "#7fe0c3",
+      "lines": {
+        "praise": "Calm. You're improving.",
+        "taunt": "Breathe. Panic is the enemy.",
+        "start": "Center yourself.",
+        "finish": "Rest. You earned it."
+      }
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "nameZh": "不死鸟",
+      "role": "duelist",
+      "color": "#ff7a3d",
+      "lines": {
+        "praise": "That's what I'm talking about!",
+        "taunt": "Come on, mate, you're playing with fire.",
+        "start": "Let's light it up.",
+        "finish": "Flawless. Next round."
+      }
+    },
+    {
+      "id": "jett",
+      "name": "Jett",
+      "nameZh": "捷特",
+      "role": "duelist",
+      "color": "#8fd3ff",
+      "lines": {
+        "praise": "Nice. Keep up with me.",
+        "taunt": "You're hesitating. That's how you lose.",
+        "start": "Let's move. Fast.",
+        "finish": "Clean. Don't get slow now."
+      }
+    },
+    {
+      "id": "reyna",
+      "name": "Reyna",
+      "nameZh": "蕾娜",
+      "role": "duelist",
+      "color": "#b45bd6",
+      "lines": {
+        "praise": "Delicious. More.",
+        "taunt": "You're prey pretending to be a predator.",
+        "start": "Feed me.",
+        "finish": "They were nothing. You could be more."
+      }
+    },
+    {
+      "id": "raze",
+      "name": "Raze",
+      "nameZh": "蕾兹",
+      "role": "duelist",
+      "color": "#ffb347",
+      "lines": {
+        "praise": "Boom! Beautiful!",
+        "taunt": "Ha! Even my grenade aims better.",
+        "start": "Let's blow something up.",
+        "finish": "Boom goes the chapter."
+      }
+    },
+    {
+      "id": "breach",
+      "name": "Breach",
+      "nameZh": "铁臂",
+      "role": "initiator",
+      "color": "#e0894a",
+      "lines": {
+        "praise": "Now that's a strike!",
+        "taunt": "You fight like a wet paper bag.",
+        "start": "Shake the ground.",
+        "finish": "Done. No more excuses."
+      }
+    },
+    {
+      "id": "skye",
+      "name": "Skye",
+      "nameZh": "斯凯",
+      "role": "initiator",
+      "color": "#8fd67a",
+      "lines": {
+        "praise": "Beautiful work!",
+        "taunt": "My hawk saw that miss. Everyone did.",
+        "start": "Let's go find our path.",
+        "finish": "All clear out here."
+      }
+    },
+    {
+      "id": "yoru",
+      "name": "Yoru",
+      "nameZh": "夜露",
+      "role": "duelist",
+      "color": "#5b8def",
+      "lines": {
+        "praise": "Not bad. For a tourist.",
+        "taunt": "You're a joke with a keyboard.",
+        "start": "Step through. Don't blink.",
+        "finish": "Gone. Like you should be."
+      }
+    },
+    {
+      "id": "astra",
+      "name": "Astra",
+      "nameZh": "星礈",
+      "role": "controller",
+      "color": "#b58cf0",
+      "lines": {
+        "praise": "The stars approve.",
+        "taunt": "You're drifting. Anchor yourself.",
+        "start": "Align the constellation.",
+        "finish": "The stars are quiet now."
+      }
+    },
+    {
+      "id": "kayo",
+      "name": "KAY/O",
+      "nameZh": "凯尔欧",
+      "role": "initiator",
+      "color": "#7d8fa8",
+      "lines": {
+        "praise": "Target neutralized.",
+        "taunt": "Your performance is statistically embarrassing.",
+        "start": "Suppression protocol online.",
+        "finish": "Mission complete."
+      }
+    },
+    {
+      "id": "chamber",
+      "name": "Chamber",
+      "nameZh": "尚勃勒",
+      "role": "sentinel",
+      "color": "#d9c39a",
+      "lines": {
+        "praise": "Exquisite. Truly.",
+        "taunt": "A tragedy in slow motion.",
+        "start": "Shall we begin?",
+        "finish": "Perfectly executed."
+      }
+    },
+    {
+      "id": "neon",
+      "name": "Neon",
+      "nameZh": "妮虹",
+      "role": "duelist",
+      "color": "#59d8ff",
+      "lines": {
+        "praise": "Oh that was fast!",
+        "taunt": "Too slow, too slow, too slow!",
+        "start": "Let's run the grid.",
+        "finish": "Full speed, finish line."
+      }
+    },
+    {
+      "id": "fade",
+      "name": "Fade",
+      "nameZh": "菲德",
+      "role": "initiator",
+      "color": "#4f7fb0",
+      "lines": {
+        "praise": "Your fear tastes like victory.",
+        "taunt": "I see your nightmares. They're typing.",
+        "start": "Let me show you what haunts you.",
+        "finish": "The terror recedes."
+      }
+    },
+    {
+      "id": "harbor",
+      "name": "Harbor",
+      "nameZh": "海神",
+      "role": "controller",
+      "color": "#4fb3a8",
+      "lines": {
+        "praise": "Steady as a tide.",
+        "taunt": "You're drowning in your own keys.",
+        "start": "The water rises.",
+        "finish": "The flood recedes."
+      }
+    },
+    {
+      "id": "gekko",
+      "name": "Gekko",
+      "nameZh": "盖克",
+      "role": "initiator",
+      "color": "#8ed94f",
+      "lines": {
+        "praise": "Sick! My crew loves you.",
+        "taunt": "Wingman could type that better.",
+        "start": "Let's go, team!",
+        "finish": "We did it, all of us."
+      }
+    },
+    {
+      "id": "deadlock",
+      "name": "Deadlock",
+      "nameZh": "铁锁",
+      "role": "sentinel",
+      "color": "#9aa7b8",
+      "lines": {
+        "praise": "Contained. Well done.",
+        "taunt": "You're tangled in your own wires.",
+        "start": "Seal the perimeter.",
+        "finish": "Nothing gets through."
+      }
+    },
+    {
+      "id": "iso",
+      "name": "Iso",
+      "nameZh": "伊索",
+      "role": "duelist",
+      "color": "#7f6bd6",
+      "lines": {
+        "praise": "Clean. Untouchable.",
+        "taunt": "You fold under pressure.",
+        "start": "Step into the flow.",
+        "finish": "Kill confirmed."
+      }
+    },
+    {
+      "id": "clove",
+      "name": "Clove",
+      "nameZh": "库洛",
+      "role": "controller",
+      "color": "#e58fd0",
+      "lines": {
+        "praise": "Ooh, look at you go!",
+        "taunt": "Dying again? Relatable.",
+        "start": "Let's have some fun.",
+        "finish": "Not bad for a ghost."
+      }
+    },
+    {
+      "id": "vyse",
+      "name": "Vyse",
+      "nameZh": "薇丝",
+      "role": "sentinel",
+      "color": "#8f7fb3",
+      "lines": {
+        "praise": "Calculated. Delicious.",
+        "taunt": "You walked right into that.",
+        "start": "Let's set the trap.",
+        "finish": "Caught. Every one."
+      }
+    },
+    {
+      "id": "tejo",
+      "name": "Tejo",
+      "nameZh": "特霍",
+      "role": "initiator",
+      "color": "#d9a04a",
+      "lines": {
+        "praise": "Precision strike.",
+        "taunt": "Your aim is a scatter plot.",
+        "start": "Targets painted.",
+        "finish": "Strike complete."
+      }
+    },
+    {
+      "id": "waylay",
+      "name": "Waylay",
+      "nameZh": "维蕾",
+      "role": "duelist",
+      "color": "#f0c05b",
+      "lines": {
+        "praise": "Fast and bright!",
+        "taunt": "You're stuck in the slow lane.",
+        "start": "Light it up.",
+        "finish": "Out of sight."
+      }
+    },
+    {
+      "id": "veto",
+      "name": "Veto",
+      "nameZh": "维托",
+      "role": "duelist",
+      "color": "#c0c8d4",
+      "lines": {
+        "praise": "Denied. Beautifully.",
+        "taunt": "I veto that performance.",
+        "start": "Nothing personal.",
+        "finish": "Ruled out."
+      }
+    }
+  ]
+}

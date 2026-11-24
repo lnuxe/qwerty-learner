@@ -62,6 +62,7 @@
     "start": "vite",
     "build": "cross-env CI=false vite build --base=./",
     "test": "echo \"No tests\"",
+    "val:assets": "node scripts/val-gen-assets.mjs",
     "test:e2e": "playwright test",
     "lint": "eslint .",
     "prettier": "prettier --write .",

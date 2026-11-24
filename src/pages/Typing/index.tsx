@@ -16,6 +16,9 @@ import Tooltip from '@/components/Tooltip'
 import { idDictionaryMap } from '@/resources/dictionary'
 import { currentChapterAtom, currentDictIdAtom, isReviewModeAtom, randomConfigAtom, reviewModeInfoAtom } from '@/store'
 import { IsDesktop, isLegal } from '@/utils'
+import { Link } from 'react-router-dom'
+import ValBackground, { useValorantSurfaceClass } from '@/valorant/Background'
+import ValorantBridge from '@/valorant/ValorantBridge'
 import { useSaveChapterRecord } from '@/utils/db'
 import { useMixPanelChapterLogUploader } from '@/utils/mixpanel'
 import { useAtom, useAtomValue, useSetAtom } from 'jotai'
@@ -36,6 +39,7 @@ const App: React.FC = () => {
 
   const reviewModeInfo = useAtomValue(reviewModeInfoAtom)
   const isReviewMode = useAtomValue(isReviewModeAtom)
+  const valorantSurfaceClass = useValorantSurfaceClass()
 
   useEffect(() => {
     // 检测用户设备
@@ -136,6 +140,15 @@ const App: React.FC = () => {
           <DictChapterButton />
           <PronunciationSwitcher />
           <Switcher />
+          <Tooltip content="无畏契约音效联动">
+            <Link
+              to="/valorant"
+              title="无畏契约音效联动设置"
+              className="flex items-center justify-center rounded px-1.5 py-[2px] text-sm font-bold text-[#ff4655] outline-none transition-colors duration-300 ease-in-out hover:bg-[#ff4655] hover:text-white"
+            >
+              VAL
+            </Link>
+          </Tooltip>
           <StartButton isLoading={isLoading} />
           <Tooltip content="跳过该词">
             <button
@@ -149,7 +162,7 @@ const App: React.FC = () => {
           </Tooltip>
         </Header>
         <div className="container mx-auto flex h-full flex-1 flex-col items-center justify-center pb-5">
-          <div className="container relative mx-auto flex h-full flex-col items-center">
+          <div className={'container relative mx-auto flex h-full flex-col items-center ' + valorantSurfaceClass}>
             <div className="container flex flex-grow items-center justify-center">
               {isLoading ? (
                 <div className="flex flex-col items-center justify-center ">
@@ -167,6 +180,8 @@ const App: React.FC = () => {
         </div>
       </Layout>
       <WordList />
+      <ValBackground />
+      <ValorantBridge />
     </TypingContext.Provider>
   )
 }

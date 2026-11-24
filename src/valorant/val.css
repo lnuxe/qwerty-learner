@@ -1,0 +1,83 @@
+/* 无畏契约音效联动 —— 背景层与浮层 */
+
+/* 开启背景后让 body 底色透出去 */
+html.val-bg-on body {
+  background-color: transparent !important;
+}
+
+html.val-bg-on #root {
+  position: relative;
+  z-index: 1;
+}
+
+.val-bg-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 400ms ease, filter 400ms ease;
+}
+
+.val-bg-dim {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background: #000;
+  transition: opacity 400ms ease;
+}
+
+/* 内容可读性：练习区加一层极淡的毛玻璃底 */
+html.val-bg-on .val-surface {
+  background-color: rgba(250, 249, 255, 0.72);
+  backdrop-filter: blur(6px);
+  border-radius: 1.25rem;
+  padding: 1.25rem 2rem;
+}
+
+html.val-bg-on.dark .val-surface {
+  background-color: rgba(17, 24, 39, 0.66);
+}
+
+.val-combo {
+  position: fixed;
+  right: 2rem;
+  bottom: 5.5rem;
+  z-index: 40;
+  pointer-events: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+  text-align: right;
+}
+
+.val-combo-num {
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #ff4655;
+  text-shadow: 0 2px 18px rgba(255, 70, 85, 0.45);
+}
+
+.val-combo-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 70, 85, 0.85);
+}
+
+.val-last {
+  font-size: 0.8rem;
+  max-width: 22rem;
+  color: #374151;
+}
+
+html.dark .val-last {
+  color: #d1d5db;
+}
